@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Post</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <ul class="btn">
+            <li><a href="#">Blog</a></li>
+            <li class="mf">
+                <a href="#">Mapa</a>
+                <a href="#">Fórum</a>
+            </li>
+            <li id="connect" class="borda"><a href="#">Connect</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <form class="post-form" id="edit-post-form">
+                <h2>Editar Post</h2>
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="author">Autor:</label>
+                <input type="text" id="author" name="author" required>
+          
+                <label for="content">Conteúdo:</label>
+                <textarea id="content" name="content" required></textarea>
+
+                <input type="file" id="imagem" name="imagem" accept="image/*">
+                
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h3>PseudoPurge</h3>
+        <ul class="logo">
+            <li><a href="#"><img src="./Img/Instagram icon.png" alt="" class=""></a></li>
+            <li><a href="#"><img src="./Img/Logo Github.png" alt="" class=""></a></li>
+            <li><a href="#"><img src="./Img/Ícone.png" alt="" class=""></a></li>
+        </ul>
+        <div class="contato">
+            <h4>Entre em contato</h4>
+            <h5>PseudoPurge@gmail.com</h5>
+            <h5>+55 98888-8888</h5>
+        </div>
+    </footer>
+    <script src="./js/edit.js"></script>
+</body>
+</html>

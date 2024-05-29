@@ -1,0 +1,175 @@
+/* Inicio do footer e header */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+html body{
+    height: 100%;
+}
+
+body{
+    background-color: #4c5e91;
+    background-image: linear-gradient(19deg, #4c5e91 39%, #ae8fba 100%);
+    background-size: 100%;
+} 
+header {
+  font-size: x-large;
+}
+.btn{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.btn a{ 
+    text-decoration: none;
+}
+
+.btn a:hover{ 
+  text-decoration: underline;
+  color: white;
+}
+.mf {
+    gap: 10px;    
+    display:flex;
+    text-align: center;
+    list-style: none;
+}
+
+ul.btn li, ul.mf li, #connect {
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient();
+    padding: 5px 10px; 
+    margin: 5px; 
+}
+
+.rodape {
+  color: white;
+    font-size: xlarge;
+    margin-top: 215px;
+    margin-left: 5px;
+    
+
+}
+.logo {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo img{
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg); 
+    width: 25px;
+}
+
+
+/* fim do header e footer */
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.post-form label {
+  margin-bottom: 10px;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #f79eb1;
+  border-radius: 5px;
+}
+
+.post-form input{
+    background-color: whitesmoke;
+}
+.post-form textarea {
+  height: 200px;
+  resize: none;
+  background-color: whitesmoke;
+}
+
+.post-form button {
+  padding: 10px 20px;
+  background-color: #f79eb1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post-form button:hover {
+  background-color: #ae8fba;
+}
+
+#btnimg {
+    margin-bottom: 10px;
+}
+
+#imagem {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f79eb1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ae8fba;
+}

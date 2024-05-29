@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "titulo": "Título do Post 1",
+            "conteudo": "Conteúdo do Post 1. Aqui você pode adicionar informações interessantes ou qualquer coisa que queira compartilhar com seus leitores.",
+            "imagem": "imagem1.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Título do Post 2",
+            "conteudo": "Conteúdo do Post 2. Aqui você pode adicionar informações interessantes ou qualquer coisa que queira compartilhar com seus leitores.",
+            "imagem": "imagem2.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Título do Post 3",
+            "conteudo": "Conteúdo do Post 3. Aqui você pode adicionar informações interessantes ou qualquer coisa que queira compartilhar com seus leitores.",
+            "imagem": "imagem3.jpg"
+        }
+    ]
+}
