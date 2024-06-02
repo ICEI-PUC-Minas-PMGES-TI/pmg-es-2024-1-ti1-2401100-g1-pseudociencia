@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Dinâmico</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/map.css">
+</head>
+<body>
+    <header>
+        <ul class="btn">
+            <li><a href="#">Blog</a></li>
+            <ul class="mf">
+                <li><a href="#">Mapa</a></li>
+                <li><a href="#">Fórum</a></li>
+            </ul>
+            <li><a href="#" id="connect" class="borda">Connect</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="content">
+            <div id="map"></div>
+            <div id="sidebar">
+                <input type="text" id="filter" placeholder=" Filtrar por nome...">
+                <button id="sort" class="delete-btn">Ordenar</button>
+                <ul id="locationsList"></ul>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h3>PseudoPurge</h3>
+        <ul class="logo">
+            <li><a href="#"><img src="./Img/Instagram icon.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="./img/Logo Github.png" alt="GitHub"></a></li>
+            <li><a href="#"><img src="./Img/Ícone.png" alt="Ícone"></a></li>
+        </ul>
+        <div class="contato">
+            <h4>Entre em contato</h4>
+            <h5>PseudoPurge@gmail.com</h5>
+            <h5>+55 98888-8888</h5>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="./js/mapa.js"></script>
+</body>
+</html>
