@@ -22,7 +22,7 @@ function salvar() {
 
 
         form.reset();
-        window.location.href = "cadastro.html";
+        window.location.href = "infocadastrada.html";
     }
     else {
         let errado = document.getElementById("errado");
