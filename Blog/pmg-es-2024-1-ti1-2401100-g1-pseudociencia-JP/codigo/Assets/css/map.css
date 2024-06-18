@@ -1,0 +1,47 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#map {
+    width: 70%;
+    height: 915px;
+    border-radius: 10px;
+}
+
+#sidebar {
+    width: 25%;
+    margin-left: 20px;
+    color: white;
+}
+
+#sidebar ul li:hover {
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}
+
+#sidebar input, #sidebar button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#locationsList {
+    list-style: none;
+    padding: 0;
+}
+
+#locationsList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#filter {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

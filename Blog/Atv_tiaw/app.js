@@ -40,12 +40,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const post = posts.find(p => p.id === postId);
 
         if (post) {
+            const today = new Date();
+
             const infoHTML = `
                 <div class="post-info">
                     <div class="info-label">Nome:</div>
                     <div>${post.autor}</div>
                     <div class="info-label" style="margin-left: 20px;">Data:</div>
-                    <div>${post.data}</div>
+                    <div> ${today.toLocaleDateString()} </div>
                 </div>
             `;
 

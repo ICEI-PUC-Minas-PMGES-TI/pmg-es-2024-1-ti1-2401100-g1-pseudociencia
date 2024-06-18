@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Perguntas</title>
+    <link rel="stylesheet" href="css_forum.css">
+</head>
+<body>
+    <header>
+        <ul class="btn">
+            <li><a href="index.html">Blog</a></li>
+            <ul class="mf">
+                <li><a href="../pmg-es-2024-1-ti1-2401100-g1-pseudociencia-JP/codigo/Assets/mapa.html">Mapa</a></li>
+                <li><a href="../pmg-es-2024-1-ti1-2401100-g1-pseudociencia-Gui-Marques/html-js_forum.html">Fórum</a></li>
+                <li><a href="../Assets/New_post.html">Criar post</a></li>
+            </ul>
+            <li><a href="../pmg-es-2024-1-ti1-2401100-g1-pseudociencia-santana/codigo/assets cadastro/cadastro.html" id="connect" class="borda">Connect</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="header">
+            <span>Gerenciador de Perguntas</span>
+            <button id="new">Adicionar Pergunta</button>
+        </div>
+
+        <div class="modal-container" id="modalContainer">
+            <div class="modal">
+                <label for="questionInput">Digite sua pergunta</label>
+                <input type="text" id="questionInput" placeholder="Digite sua pergunta" required>
+                <button id="addQuestion">Adicionar</button>
+            </div>
+        </div>
+
+        <div class="modal-container" id="editModalContainer">
+            <div class="modal">
+                <label for="editQuestionInput">Edite sua pergunta</label>
+                <input type="text" id="editQuestionInput" placeholder="Edite sua pergunta" required>
+                <label for="editResponseInput">Edite sua resposta</label>
+                <input type="text" id="editResponseInput" placeholder="Edite sua resposta" required>
+                <button id="saveEdit">Salvar Alterações</button>
+            </div>
+        </div>
+
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pergunta</th>
+                        <th>Resposta</th>
+                        <th class="acao">Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="questionsContainer"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let currentQuestionIndex = null;
+
+        function loadQuestions() {
+            const questionsContainer = document.getElementById('questionsContainer');
+            questionsContainer.innerHTML = '';
+
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            questions.forEach((questionObj, index) => {
+                const questionRow = document.createElement('tr');
+                questionRow.innerHTML = `
+                    <td>${questionObj.question}</td>
+                    <td>${questionObj.response ? questionObj.response : 'Sem resposta ainda'}</td>
+                    <td class="acao">
+                        <button onclick="editQuestion(${index})">Editar</button>
+                        <button onclick="deleteQuestion(${index})">Deletar</button>
+                    </td>
+                `;
+                questionsContainer.appendChild(questionRow);
+            });
+        }
+
+        function saveQuestion(question) {
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            questions.push({ question: question, response: '' });
+            localStorage.setItem('questions', JSON.stringify(questions));
+            loadQuestions();
+        }
+
+        function saveResponse(response) {
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            questions[currentQuestionIndex].response = response;
+            localStorage.setItem('questions', JSON.stringify(questions));
+            loadQuestions();
+        }
+
+        function saveEdit(question, response) {
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            questions[currentQuestionIndex].question = question;
+            questions[currentQuestionIndex].response = response;
+            localStorage.setItem('questions', JSON.stringify(questions));
+            loadQuestions();
+        }
+
+        function deleteQuestion(index) {
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            questions.splice(index, 1);
+            localStorage.setItem('questions', JSON.stringify(questions));
+            loadQuestions();
+        }
+
+        document.getElementById('addQuestion').addEventListener('click', function() {
+            const questionInput = document.getElementById('questionInput');
+            const question = questionInput.value.trim();
+            if (question) {
+                saveQuestion(question);
+                questionInput.value = '';
+                document.getElementById('modalContainer').classList.remove('active');
+            }
+        });
+
+        document.getElementById('new').addEventListener('click', function() {
+            document.getElementById('modalContainer').classList.add('active');
+        });
+
+        function editQuestion(index) {
+            currentQuestionIndex = index;
+            const questions = JSON.parse(localStorage.getItem('questions')) || [];
+            document.getElementById('editQuestionInput').value = questions[index].question;
+            document.getElementById('editResponseInput').value = questions[index].response;
+            document.getElementById('editModalContainer').classList.add('active');
+        }
+
+        document.getElementById('saveEdit').addEventListener('click', function() {
+            const editQuestionInput = document.getElementById('editQuestionInput');
+            const editResponseInput = document.getElementById('editResponseInput');
+            const question = editQuestionInput.value.trim();
+            const response = editResponseInput.value.trim();
+            if (question) {
+                saveEdit(question, response);
+                editQuestionInput.value = '';
+                editResponseInput.value = '';
+                document.getElementById('editModalContainer').classList.remove('active');
+            }
+        });
+
+        window.onload = loadQuestions;
+    </script>
+</body>
+</html>

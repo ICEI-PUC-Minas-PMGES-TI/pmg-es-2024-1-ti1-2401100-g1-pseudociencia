@@ -1,0 +1,116 @@
+[
+  {
+      "name": "Área 51",
+      "description": "Área 51 é uma instalação da Força Aérea dos Estados Unidos localizada no estado de Nevada. Tem sido objeto de várias teorias de conspiração relacionadas a OVNIs.",
+      "state": "Nevada",
+      "coordinates": [37.235, -115.8111],
+      "type": ["OVNI", "Conspiração"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/%C3%81rea_51"
+  },
+  {
+      "name": "Stonehenge",
+      "description": "Stonehenge é um monumento pré-histórico localizado na Inglaterra. É um círculo de pedras que alguns acreditam ter propriedades místicas ou astronômicas.",
+      "state": "Wiltshire",
+      "coordinates": [51.1789, -1.8262],
+      "type": ["Místico", "Arqueológico"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Stonehenge"
+  },
+  {
+      "name": "Triângulo das Bermudas",
+      "description": "O Triângulo das Bermudas é uma região no Oceano Atlântico Ocidental onde várias aeronaves e navios desapareceram sob circunstâncias misteriosas.",
+      "state": "Oceano Atlântico",
+      "coordinates": [25, -71],
+      "type": ["Paranormal", "Mistério"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_das_Bermudas"
+  },
+  {
+      "name": "Lago Ness",
+      "description": "O Lago Ness é famoso pela lenda do Monstro do Lago Ness, uma criatura aquática que supostamente habita o lago na Escócia.",
+      "state": "Escócia",
+      "coordinates": [57.3229, -4.4244],
+      "type": ["Criptozoologia", "Mistério"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Monstro_do_Lago_Ness"
+  },
+  {
+      "name": "Machu Picchu",
+      "description": "Machu Picchu é uma antiga cidade inca no Peru. Além de sua importância arqueológica, alguns acreditam que possui energias místicas.",
+      "state": "Cusco",
+      "coordinates": [-13.1631, -72.545],
+      "type": ["Místico", "Arqueológico"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Machu_Picchu"
+  },
+  {
+      "name": "Chichen Itza",
+      "description": "Chichen Itza é uma grande cidade maia no México, famosa por sua pirâmide e supostos alinhamentos astrológicos.",
+      "state": "Yucatán",
+      "coordinates": [20.6843, -88.5678],
+      "type": ["Místico", "Arqueológico"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1"
+  },
+  {
+      "name": "Pirâmides de Gizé",
+      "description": "As Pirâmides de Gizé são uma das Sete Maravilhas do Mundo Antigo, localizadas no Egito. Existem várias teorias sobre seu propósito e construção, incluindo teorias de alienígenas antigos.",
+      "state": "Gizé",
+      "coordinates": [29.9792, 31.1342],
+      "type": ["Arqueológico", "Mistério"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/Pir%C3%A2mides_de_Giz%C3%A9"
+  },
+  {
+      "name": "Círculos nas plantações",
+      "description": "Os círculos nas plantações são padrões misteriosos que aparecem em campos de trigo e outras plantações ao redor do mundo, muitas vezes atribuídos a extraterrestres.",
+      "state": "Diversos",
+      "coordinates": [51.428, -1.85],
+      "type": ["OVNI", "Mistério"],
+      "wikipedia": "https://pt.wikipedia.org/wiki/C%C3%ADrculos_nas_colheitas"
+  },
+  {
+    "name": "Monte Shasta",
+    "description": "Uma montanha conhecida por suas lendas e mistérios, incluindo avistamentos de OVNIs e rumores de uma cidade subterrânea chamada Telos.",
+    "coordinates": [41.4099, -122.1944],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Mount_Shasta_from_the_summit_of_Shadylea_Spring.jpg/450px-Mount_Shasta_from_the_summit_of_Shadylea_Spring.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Monte_Shasta"
+},
+{
+    "name": "Skinwalker Ranch",
+    "description": "Uma fazenda famosa por relatos de atividades paranormais e avistamentos de criaturas estranhas.",
+    "coordinates": [40.2583, -109.8882],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Skinwalker_Ranch.jpg/450px-Skinwalker_Ranch.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Skinwalker_Ranch"
+},
+{
+    "name": "Aeroporto Internacional de Denver",
+    "description": "O aeroporto é cercado por teorias conspiratórias devido a sua arquitetura peculiar, murais enigmáticos e rumores sobre um complexo subterrâneo secreto.",
+    "coordinates": [39.8561, -104.6737],      
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Denver_International_Airport%2C_Jeppesen_Terminal%2C_Sept_2017.jpg/450px-Denver_International_Airport%2C_Jeppesen_Terminal%2C_Sept_2017.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_de_Denver"
+},
+{
+    "name": "Pirâmides de Gizé",
+    "description": "As pirâmides são alvo de diversas teorias pseudocientíficas, incluindo alegações de que foram construídas com a ajuda de extraterrestres ou que contêm conhecimentos ocultos.",
+    "coordinates": [29.9792, 31.1342],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/All_Gizah_Pyramids.jpg/450px-All_Gizah_Pyramids.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Complexo_de_pir%C3%A2mides_de_Giz%C3%A9"
+},
+{
+    "name": "Santuário de Sedona",
+    "description": "Conhecida por seus vórtices de energia espiritual, Sedona atrai pessoas interessadas em curas espirituais, meditação e fenômenos paranormais.",
+    "coordinates": [34.8697, -111.7610],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sedona_Arizona.jpg/450px-Sedona_Arizona.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sedona"
+},
+{
+    "name": "Lago Vostok",
+    "description": "Um lago subglacial que tem sido alvo de teorias sobre formas de vida desconhecidas e civilizações antigas escondidas sob o gelo.",
+    "coordinates": [-77.5, 106.0],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Antarctica_surface.jpg/450px-Antarctica_surface.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Lago_Vostok"
+},
+{
+    "name": "Cidade Submersa de Yonaguni",
+    "description": "Estruturas submersas perto da ilha de Yonaguni que alguns acreditam ser os restos de uma antiga civilização avançada.",
+    "coordinates": [24.4472, 122.9365],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/YonaguniSub.jpg/450px-YonaguniSub.jpg",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Yonaguni"
+}
+  
+]

@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             localStorage.setItem("posts", JSON.stringify(updatedPosts));
 
-            window.location.href = "../Atv_tiaw/index.html";
+            window.location.href = "index.html";
         };
 
         if (imageInput.files.length > 0) {

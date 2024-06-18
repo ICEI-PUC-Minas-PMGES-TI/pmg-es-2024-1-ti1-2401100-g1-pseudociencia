@@ -41,7 +41,7 @@ function salvarPost(post) {
     posts.push(post);
     localStorage.setItem("posts", JSON.stringify(posts));
     form.reset();
-    window.location.href = "../Atv_tiaw/index.html";
+    window.location.href = "index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function() {

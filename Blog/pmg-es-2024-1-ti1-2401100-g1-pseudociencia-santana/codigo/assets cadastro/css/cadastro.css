@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #4c5e91;
+    background-image: linear-gradient(19deg, #4c5e91 39%, #ae8fba 100%);
+    font-family: "Poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.card {
+    margin-top: 10px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    opacity: 90%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    border-radius: 7px;
+}
+
+footer {
+    padding: 1%;
+    margin-top: 8%;
+    text-align: end;
+}
+
+i {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.erro {
+    color: red;
+}
+
+/*footer*/
+
+.rodape {
+    color: white;
+    font-size: x-large;
+    margin-top: 215px;
+    margin-left: 5px;
+    text-align: left;
+
+}
+
+.logo {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo img {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg);
+    width: 25px;
+}
+
+/* Responsividade*/
+
+@media screen and (max-width: 1307px) {
+    #logo {
+        width: 25%;
+    }
+
+    .card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #logo {
+        width: 40%;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    #logo {
+        width: 60%;
+    }
+
+    .card {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #logo {
+        width: 80%;
+    }
+
+    .card {
+        width: 85%;
+    }
+}
