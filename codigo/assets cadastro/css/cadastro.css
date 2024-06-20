@@ -45,7 +45,15 @@ i {
 button {
     border-radius: 10px;
 }
-
+.voltar{
+    display: block;
+}
+.fa-regular{
+    font-size: x-large;
+}
+.fa-regular:hover{
+    cursor: pointer;
+}
 .erro {
     color: red;
 }
