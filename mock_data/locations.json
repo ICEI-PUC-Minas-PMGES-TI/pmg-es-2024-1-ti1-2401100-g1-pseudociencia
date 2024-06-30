@@ -85,13 +85,6 @@
     "wikipedia": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_de_Denver"
 },
 {
-    "name": "Pirâmides de Gizé",
-    "description": "As pirâmides são alvo de diversas teorias pseudocientíficas, incluindo alegações de que foram construídas com a ajuda de extraterrestres ou que contêm conhecimentos ocultos.",
-    "coordinates": [29.9792, 31.1342],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/All_Gizah_Pyramids.jpg/450px-All_Gizah_Pyramids.jpg",
-    "wikipedia": "https://pt.wikipedia.org/wiki/Complexo_de_pir%C3%A2mides_de_Giz%C3%A9"
-},
-{
     "name": "Santuário de Sedona",
     "description": "Conhecida por seus vórtices de energia espiritual, Sedona atrai pessoas interessadas em curas espirituais, meditação e fenômenos paranormais.",
     "coordinates": [34.8697, -111.7610],
