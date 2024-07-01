@@ -70,6 +70,20 @@ ul.btn li, ul.mf li, #connect {
 
 /* fim do header e footer */
 
+
+main {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 200px); /* Subtrai a altura aproximada do header e footer */
+  /* Ajuste conforme necessário */
+}
+
+.logocentro {
+  max-width: 100%; /* Para garantir que a imagem não ultrapasse os limites da tela */
+}
+
 .container {
   max-width: 600px;
   margin: 50px auto;
@@ -173,4 +187,41 @@ ul.btn li, ul.mf li, #connect {
 
 .delete-btn:hover {
     background-color: #ae8fba;
+}
+
+.logocentro {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-us, .services, .recent-posts {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2, .services h2, .recent-posts h2 {
+  margin-top: 0;
+}
+
+.services ul, .recent-posts ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.services li, .recent-posts li {
+  margin: 10px 0;
+}
+
+.coisas {
+  padding-bottom: 110px;
+}
+
+.rodape{
+  margin-top: 190px;
 }
