@@ -71,7 +71,7 @@ ul.btn li, ul.mf li, #connect {
 /* fim do header e footer */
 
 
-main {
+.naub {
   margin-top: 140px;
   display: flex;
   justify-content: center;
