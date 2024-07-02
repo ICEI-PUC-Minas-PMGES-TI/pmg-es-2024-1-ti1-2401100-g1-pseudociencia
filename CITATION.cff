@@ -1,6 +1,6 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: Conjunto de sites sobre informações sobre a pseudociencia
+title: Pseudociência
 authors: 
   - family-names: Delmiro de Jesus
     given-names: Arthur Fonseca
@@ -16,11 +16,11 @@ authors:
     given-names: Simone
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Machado Osório Pereira
-    given-names: Daniel
+    family-names: Boechat Seufitelli
+    given-names: Danilo
  - name-suffix: Professor
     affiliation: PUC Minas
-    family-names:Augusto de Faria Barros 
+    family-names: Augusto de Faria Barros 
     given-names: Diego
 keywords:
   - Pseudociencia
